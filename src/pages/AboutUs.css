@@ -1,0 +1,85 @@
+.about {
+  padding: 20px;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Introducción */
+.intro {
+  text-align: center;
+  margin-bottom: 40px;
+  background: linear-gradient(135deg, #d5e8d4, #f4f4f4);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.intro h1 {
+  font-size: 32px;
+  color: #2e7d32;
+}
+
+.intro p {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* Contenedor principal en formato de cuadrícula */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-left: 180px;
+}
+
+/* Estilado individual de los perfiles */
+.profile {
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 250px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Centrado horizontal para los retratos con texto */
+.profile .portrait {
+  display: block;
+  margin: 0 auto; /* Centrado horizontal */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.side-image-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.side-image {
+  max-width: 250px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Media Queries Responsivas */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .profile {
+    max-width: 100%;
+  }
+  .side-image {
+    max-width: 120px;
+  }
+}
