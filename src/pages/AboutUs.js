@@ -15,8 +15,8 @@ function AboutUs() {
         <h1>Conoce Agrocheck</h1>
         <p>
           En Agrocheck, buscamos la implementación del OCRA Checklist de una manera intuitiva y fácil de usar para nuestros usuarios. 
-          Nuestro equipo está formado por estudiantes de la Universidad Nacional del Santa, estudiantes de Ingeniería 
-          Agroindustrial apasionados por ayudar a las personas que lo necesitan.
+          Nuestro equipo está formado por estudiantes de Ingeniería Agroindustrial apasionados por ayudar a las personas que lo necesitan.
+          Estudiantes de la Universidad Nacional del Santa,
         </p>
       </section>
 
